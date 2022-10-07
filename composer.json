@@ -5,6 +5,10 @@
       "App\\":"App/"
     }
   },
+  "scripts": {
+    "dev:open": "xdg-open http://127.0.0.1:8080; php -S 127.0.0.1:8080",
+    "dev": "php -S 127.0.0.1:8080"
+  },
   "require": {
     "william-costa/dot-env": "^0.1.0"
   }
