@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use App\Database\Database;
+use App\Api\Database\Database;
 use App\Utils\View;
 use App\DotEnv\Environment;
 use App\Http\Middleware\Queue as MiddlewareQueue;

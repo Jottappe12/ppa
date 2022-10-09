@@ -9,7 +9,7 @@ $obRouter = new Router(URL);
 
 
 //INCLUI AS ROTAS DA API
-include __DIR__ . '/routes/Api/api.php';
+include __DIR__ . '/App/Api/routes/api.php';
 
 //INCLUI AS ROTAS DAS PÁGINAS DE ADMIN
 include __DIR__ . '/routes/Admin/admin.php';
